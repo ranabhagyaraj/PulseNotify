@@ -1,0 +1,29 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local Settings & Credentials
+pulse_project/settings/local.py
+.env
+*.env
+
+# Celery Beat Database & Logs
+celerybeat-schedule
+celerybeat-schedule.db
+celerybeat.pid
+
+# Database
+*.sqlite3
+*.db
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+*.log
